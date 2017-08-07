@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Inputs -1 </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-content> 
+
+
+
+  <ion-list>
+
+  <ion-item>
+    <ion-label stacked>Username</ion-label>
+    <ion-input type="text"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label stacked>Password</ion-label>
+    <ion-input type="password"></ion-input>
+  </ion-item>
+
+</ion-list>
+
+
+
+
+  <div padding>
+    <button ion-button color="primary" block (click)="launchSecondPage()">Launch with param passing</button>
+  </div>
+
+  <div padding>
+    <button ion-button color="primary" block (click)="launchSecondPageM()">Launch with Modal</button>
+  </div>
+
+</ion-content>
